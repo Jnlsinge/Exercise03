@@ -22,6 +22,6 @@
 	<br>
 	<br>
 	<br>
-	<a href="login.php">LOG OUT</a>
+	<a href="index.php">LOG OUT</a>
 </body>
 </html>
