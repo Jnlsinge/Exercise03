@@ -16,5 +16,5 @@
 <br/>
 <a href="index.php"><input type="submit" value="Reset password">
 
-<center></body>
+</center></body>
 </html>
