@@ -11,7 +11,7 @@
 	    }
 </style>
 
-<body align="center"><font color="white">
+<body><center><font color="white">
 <h1>Welcome</h1>
 <br/>
 <h1>To My</h1>
@@ -20,5 +20,5 @@
 <br/>
 
 <a href="home.php">Proceed to Photo Gallery</a>
-</body>
+	</center></body>
 </html>
