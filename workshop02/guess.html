@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>J'Neil Christian A. Bering</title>
+<style>
+	html{
+	font-family: Arial Black, cursive;
+	    }
+	body{
+		text-align: center;
+		color: white;
+		background-image:url("gif.gif");
+		}
+</style>
+</head>
+<body>
+
+
+<h1 style="background-color:Purple; font-size: 1000%">GUESS THE NUMBER</h1>
+
+<p style="font-size:150%;">Try to Guess the Number We have Randomly Selected from 1-10</p>
+
+<div class="form"> 
+    <label for="guessField">ENTER A GUESS:</label> 
+    <input type = "text" id = "guessField" class = "guessField"> 
+    <input type = "submit" value = "SUBMIT GUESS" class = "guessSubmit" id = "submitguess"> 
+</div> 
+  
+<script type = "text/javascript"> 
+  
+    // random number generated 
+    var y = Math.floor(Math.random() * 10 + 1); 
+      
+    // counting the number of guesses 
+    // made for correct Guess 
+    var guess = 1; 
+      
+    document.getElementById("submitguess").onclick = function(){ 
+      
+   // user guess       
+   var x = document.getElementById("guessField").value; 
+
+
+  if (x == "") {
+ alert("Missing guess parameter"); 
+}
+  else if(x == y) 
+   {     
+       alert("Congratulations - You are right"
+               ); 
+   } 
+else if(x > y) 
+   {     
+       guess++; 
+       alert("Your guess is too high"); 
+   } 
+else if(x < y) 
+   {     
+       guess++; 
+       alert("Your guess is too low"); 
+   } 
+
+   else
+   { 
+       guess++; 
+       alert("Your guess is not a number") 
+   } 
+} 
+</script> 
+	
+
+</body>
+</html>
