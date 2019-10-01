@@ -51,13 +51,16 @@ Login page
 function check(form)/*function to check userid & password*/
 {
  /*the following code checkes whether the entered userid and password are matching*/
- if(form.userid.value == "jnl" && form.pswrd.value == "jnl")
+ if(form.userid.value == "jneil" && form.pswrd.value == "bering")
   {
    location="game.html" 
   }
+ if(form.userid.value == "jneil")
+  {
+   alert("Incorrect password")/*displays error message*/	  
  else
  {
-   alert("Error Password or Username")/*displays error message*/
+   alert("User name and password are required.")/*displays error message*/
   }
 }
 </script>
