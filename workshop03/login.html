@@ -1,7 +1,9 @@
 <!doctype html>
 <html>
 <head>
-	<title>Login Page</title>
+<title>
+Login page
+</title>
 </head>
 <style>
 	body{
@@ -10,7 +12,6 @@
 		background-attachment: fixed;
 	    }
 	h1  {
-
   		background-color: #E48672;
  		 text-align: center;
 		color: white;
@@ -32,34 +33,33 @@
 	    
 </style>
 
-
 <body align="center">
-
 <h1>Login to play</h1>
-
-<div>
+<div>
 <tr>
-<td>Username:</td>
-<td><input type="text" name="userid"></td>
+<td><form name="login"></td>
+<td>Username<input type="text" name="userid"/></td>
 </tr>
 <br/>
 <tr>
-<td>Password:</td>
-<td><input type="text" name="userpass"></td>
-</tr>
+<td>Password<input type="password" name="pswrd"/></td>
+<td><input type="button" onclick="check(this.form)" value="Login"/></td>
+<td><input type="reset" value="Cancel"/></td>
+</form></tr>
 <br/>
-<a href="rps.html"><button type="submit">Sign in</button></a>
-<br/>
-<br/>
-<br/>
-<a href="reset.html">Reset password</a>
-<br/>
-<a href="register.html">Sign Up</a></div>
-
-
-
-
-
-
-</body></font>
+<script language="javascript">
+function check(form)/*function to check userid & password*/
+{
+ /*the following code checkes whether the entered userid and password are matching*/
+ if(form.userid.value == "jnl" && form.pswrd.value == "jnl")
+  {
+   location="game.html" 
+  }
+ else
+ {
+   alert("Error Password or Username")/*displays error message*/
+  }
+}
+</script>
+</body>
 </html>
