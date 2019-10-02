@@ -55,10 +55,12 @@ function check(form)/*function to check userid & password*/
   {
    location="game.html" 
   }
- else
+ else if(form.userid.value == "" && form.pswrd.value == "")
   {
    alert("User name and password are required.")/*displays error message*/
   }
+ else if(form.pswrd.value == "")
+   alert("Incorrect password")
 }
 </script>
 </body>
