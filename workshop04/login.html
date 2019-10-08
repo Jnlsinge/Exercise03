@@ -1,0 +1,60 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>
+Login page
+</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+
+<div class="login-box">
+<h1>Philippine Government Agency</h1>
+
+<div class="textbox">
+<i class="fas fa-user" aria-hidden="true"></i>
+
+<form name="login"></td>
+<input type="text" placeholder="Username" name="userid">
+</div>
+
+<div class="textbox">
+<i class="fas fa-key" aria-hidden="true"></i>
+<input type="password" placeholder="Password" name="pswrd">
+</div>
+
+<input class="btn" type="button" onclick="check(this.form)" value="Sign in"/>
+
+
+<script language="javascript">
+function check(form)/*function to check userid & password*/
+{
+ /*the following code checkes whether the entered userid and password are matching*/
+ if(form.userid.value == "username" && form.pswrd.value == "password")
+  {
+   alert("WELCOME TO PHILIPPINE GOVERNMENT AGENCY!");
+  
+   location="search.html" 
+  }
+ else if(form.userid.value == "" && form.pswrd.value == "")
+  {
+   alert("User name and password are required.")/*displays error message*/
+  }
+ else if(form.userid.value == "")
+{
+  alert("Username is required.")
+}
+ else if(form.pswrd.value == "")
+{ 
+   alert("Password is required.")
+}
+  else 
+            alert ("Incorrect Username or Password.")
+	}
+
+</script>
+</body>
+</html>
