@@ -1,0 +1,49 @@
+body{
+	maring: 0;
+	padding: 0;
+	background: url(phil.jpg) no-repeat;
+	background-size: cover;
+}
+
+#menu{
+	margin: 0;
+	padding: 0;
+	margin-top: 350px;
+}
+
+#menu li{
+	list-style: none;
+	display: inline-block;
+}
+
+#menu li a{
+	text-decoration: none;
+	position: relative;
+	color: white;
+	font-size: 20px;
+	font-weight: 700;
+	font-family: sans-serif;
+	display: block;
+	overflow: hidden;
+	transition: 0.7s all;
+	padding: 14px 20px;
+}
+
+#menu li a:before{
+	content: '';
+	width: 60px;
+	position: absolute;
+	border-bottom: 8px solid #1148AF;
+	bottom: 0;
+	right: 350px;
+	transition: 0.7s all;
+}
+
+#menu li a:hover:before{
+	right: 0;
+}
+
+
+.menu-bar{
+	background-color: black;
+}
