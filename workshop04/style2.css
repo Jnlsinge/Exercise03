@@ -4,11 +4,20 @@ body{
 	background: url(phil.jpg) no-repeat;
 	background-size: cover;
 }
+.header {
+
+  background: url(phils.jpg) no-repeat;
+  width: 1600px;
+  height: 400x;
+  padding: 200px;
+  color: black;
+}
+
 
 #menu{
 	margin: 0;
 	padding: 0;
-	margin-top: 350px;
+	margin-top: 0px;
 }
 
 #menu li{
