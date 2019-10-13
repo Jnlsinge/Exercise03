@@ -1,0 +1,113 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(phil.jpg) no-repeat;
+	background-size: cover;
+	font-family: sans-serif;
+	color: white;
+}
+
+.login-box{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(45deg,#9fbaa8,#31354c);
+	transition: 0.4s;	
+}
+
+.login-form{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	text-align: center;
+}
+
+.txtb{
+	display: block;
+	box-sizing: border-box;
+	width: 240px;
+	background: #ffffff28;
+	border: 1px solid white;
+	padding: 10px 20px;
+	color: white;
+	outline: none;
+	margin: 10px 0;
+	border-radius: 6px;
+	text-align: center;
+}
+
+.login-btn{
+	width: 240px;
+	background: #2c3e50;
+	border: 0;
+	color: white;
+	padding: 10px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+a
+{
+	position: absolute;
+	top: 85%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 15px 30px;
+	text-transform: uppercase;
+	text- decoration: none;
+	color: #fff;
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+
+a:before
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #1148AF;
+	z-index: -1;
+	transition: transform 0.5s;
+	transform-origin: bottom right;
+	transform: scale(0);
+}
+
+a:hover:before
+{
+	transition: transform 0.5s;
+	transform-origin: top left;
+	transform: scale(1);
+}
+
+a:after
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	border: 2px solid #1148AF;
+	z-index: -1;
+	transition: transform 0.5s;
+	transform-origin: top left;	
+	transform: scale(1);
+}
+
+a:hover:after
+{
+	transition: transform 0.5s;
+	transform-origin: bottom right;	
+	transform: scale(0);
+	transition
+}
+
+

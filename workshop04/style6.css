@@ -1,0 +1,36 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(phil.jpg) no-repeat;
+	background: url
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	font-family: sans-serif;
+	color: white;
+}
+
+
+
+
+p{
+	background: ;
+	display: inline-block;
+	border: 1px solid white;
+	font-family: sans-serif;
+	font-size: 65px;
+	width: 20%;
+
+	
+}
+
+
+a{
+
+	text-decoration: none;
+	color: white;
+}
+
+
+
+

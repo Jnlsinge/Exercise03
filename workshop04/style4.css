@@ -1,0 +1,15 @@
+body{
+	font-family: sans-serif;
+	background: url(phil.jpg) no-repeat;
+	background-size: cover;
+}
+
+.agency{
+	
+	text-align: center;
+	color: white;
+}
+
+.h{
+	font-color: white;
+}
