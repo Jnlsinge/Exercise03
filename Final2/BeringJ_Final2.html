@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Odd-Even Game</title>
+</head>
+
+<style>
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+</style>
+
+<body><center>
+
+<h1>Odd-Even Game by [J'Neil Christian A. Bering] [SET A]</h1>
+<h2>Your guess:</h2>
+
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#">Odd</a>
+   <a href="#">Even</a>
+    
+  </div>
+</div>
+
+<br/>
+<br/>
+<button onclick="myFunction()">Roll the Dice!</button>
+<br/><br/>
+<label> Dice top Value: </label>
+<br/><br/>
+<label> Value is: </label>
+<br/><br/>
+<h3> Congrats! You Successfully guessed it Right and Wrong! </h3>
+
+<h3> Developed by [J'Neil Christian A. Bering] [Set A] </h3>
+
+
+
+
+</body>
+</html
